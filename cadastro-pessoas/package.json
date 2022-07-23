@@ -1,0 +1,23 @@
+{
+  "name": "cadastro-pessoas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.2.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.6",
+    "nodemon": "^2.0.19"
+  }
+}

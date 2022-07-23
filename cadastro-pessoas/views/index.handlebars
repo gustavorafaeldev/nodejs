@@ -1,0 +1,13 @@
+<h1>Bem vindo a página Inicial</h1>
+<hr>
+<h2>Todas Pessoas:</h2>
+{{#each pessoas}}
+    <div class="card">
+        <div class="card-body">
+            <small>Nome: {{nome}}</small><br>
+            <small>Nasc: {{nasc}}</small>
+        </div>
+    </div>
+{{else}}
+    <h5>Nenhuma pessoa registrada!</h5>
+{{/each}}
